@@ -4,18 +4,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // cat sound
   const sideCat = document.getElementById('side-cat');
   sideCat.addEventListener('mouseover', function() {
-    let audio = new Audio("./metadata/softmeow1.mp3");
+    let audio = new Audio("./metadata/lick.mp3");
     audio.play();
   });
   const sideCat2 = document.getElementById('side-cat');
   sideCat2.addEventListener('click', function() {
-    let audio = new Audio("./metadata/softmeow1.mp3");
+    let audio = new Audio("./metadata/lick.mp3");
     audio.play();
   });
 
   // copy button logic
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "2KoP78RUzDuimgZm6e2k1HX9nftnGLvfAAeisCAJGP8b";
+  const textToCopy = "6SPbrnC3z4r42jbFBgC3gatF6dKCiDZsKWPtbKa95cVz";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
@@ -40,22 +40,22 @@ document.addEventListener('DOMContentLoaded', function() {
   // links
   const twitterBtn = document.getElementById('twitter-button');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/nalaonsolana', '_blank');
+    window.open('https://x.com/lickcatonsolana', '_blank');
   });
 
   const telegramBtn = document.getElementById('telegram-button');
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/SolanaNala', '_blank');
+    window.open('https://t.me/+lnqeawGEkeY0Yjhh', '_blank');
   });
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com/solana/h9werqhqqvnaj4jfdmlvu2ektetjb5e1rdzfqyjrtay4', '_blank');
+    window.open('https://dexscreener.com/solana/fdt3pvstnhekzk8fx4sybnjmb3tzrx6yj7epmaebvdum', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2KoP78RUzDuimgZm6e2k1HX9nftnGLvfAAeisCAJGP8b', '_blank');
+    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6SPbrnC3z4r42jbFBgC3gatF6dKCiDZsKWPtbKa95cVz', '_blank');
   });
 
 });

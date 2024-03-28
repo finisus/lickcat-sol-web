@@ -16,8 +16,8 @@
 
 /* Color Scheme: Catppuccin Latte */
 :root {
-  --background: rgba(239, 241, 245, 1.0);
-  --text: rgba(76, 79, 105, 1.0);
+  --background: #2e3440;
+  --text: #d8dee9;
 }
 
 /* let page take full height of viewport excess */
@@ -49,7 +49,7 @@ main {
 .border-vertical img { width: 36px; height: auto; }
 
 .accent-text { color: #f38ba8; }
-.solana-text { color: #cba6f7; }
+.solana-text { color: #88c0d0; }
 
 #side-cat {
   position: absolute;
@@ -57,7 +57,7 @@ main {
   top: 0;
   right: 0;
   margin-top: 72px;
-  margin-right: -20px;
+  margin-right: -36px;
   cursor: pointer;
 }
 #side-cat img {
@@ -198,23 +198,24 @@ main {
   font-family: 'aztec';
   font-size: 32px;
   letter-spacing: 2px;
-  margin-top: 24px;
-  margin-bottom: -4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 #nala-main-img {
-  width: 200px;
+  width: 220px;
   height: auto;
+  padding: 16px;
   margin-top: 16px;
-  border-radius: 4px;
+  border-radius: 22px;
   background: none;
   border: none;
 }
 
 #main-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
 #main-border-bottom { position: absolute; bottom: 0; padding: 0; margin: 0;}
-#main-border-left { position: absolute; left: -136px; padding: 0; margin: 0; }
-#main-border-right { position: absolute; right: -136px; padding: 0; margin: 0; }
+#main-border-left { position: absolute; left: -182px; padding: 0; margin: 0; }
+#main-border-right { position: absolute; right: -182px; padding: 0; margin: 0; }
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
